@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2? family= League+Gothic & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #030303;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__titulo {
+    font-size: 40px;
+    margin-top: 2%;
+    color: #eeeeee;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.navegacao {
+    margin: 2% 17%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+a:link, a:visited {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: none;
+	color: #cf0a0a
+}
+
+a:active {
+	text-decoration: none
+}
+
+
+span {
+    color: #cf0a0a;
+}
+
+.navegacao__link1 {
+    font-size: 25px;
+}
+
+.navegacao__link2 {
+    font-size: 25px;
+}
+
+.navegacao__link3 {
+    font-size: 25px;
+}
+
+.principal__secao__titulo {
+    margin-left: 200px;
+    margin-top: 120px;
+    font-size: 40px;
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.principal__div__p {
+    margin-top: 60px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal {
+display: flex;
+justify-content: end;
+}
+
+.principal__img {
+    margin-right: 5%;
+    margin-top: 2%;
+    border: 4px solid #cf0a0a;
+    border-radius: 2%;
+}
+
+.principal__botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+
+.principal__botao1 {
+    font-size: 25px;
+    margin-left: 110px;
+    height: 50px;
+    width: 150px;
+    border: 2px #cf0a0a solid;
+    padding-left: 45px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
+.principal__botao2 {
+    font-size: 25px;
+    margin-right: 50px;
+    height: 50px;
+    width: 150px;
+    border: 2px #cf0a0a solid;
+    padding-left: 45px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
